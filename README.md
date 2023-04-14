@@ -7,3 +7,4 @@
 4. https://alchemy.com/blog/how-to-polyfill-node-core-modules-in-webpack-5
 5. npm install web3 @metamask/detect-provider @truffle/contract  ethereumjs-tx ethereumjs-util merkle-patricia-tree
 6. Select one account from Ganache App and import into MetaMask
+7. truffle migrate
