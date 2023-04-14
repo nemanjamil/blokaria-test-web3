@@ -1,3 +1,23 @@
+npx create-react-app fauset | cd fauset
+   
+// npm fund   // optional - npm audit fix --force
+// opional to use yarn  : delete nodemodules package-lock then type in terminal yarn
+
+npm install -g truffle
+truffle init
+
+https://alchemy.com/blog/how-to-polyfill-node-core-modules-in-webpack-5
+
+npm install web3 @metamask/detect-provider @truffle/contract  ethereumjs-tx ethereumjs-util merkle-patricia-tree
+
+
+git remote add origin https://github.com/nemanjamil/web3-blokaria.git
+git branch -M main
+git push -u origin main
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
