@@ -30,6 +30,9 @@ function App() {
     const loadProvider = async () => {
       const provider = await detectEthereumProvider()
 
+      console.log('provider', provider);
+
+
       if (provider) {
         const contract = await loadContract("Faucet", provider)
         setAccountListener(provider)
@@ -72,6 +75,8 @@ function App() {
     await contract.addFunds({
       from: account,
       value: web3.utils.toWei("1", "ether")
+    }).catch((err) => {
+      console.error("err", err.message)
     })
 
     reloadEffect()

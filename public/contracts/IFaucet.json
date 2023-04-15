@@ -36,15 +36,15 @@
     "absolutePath": "project:/contracts/IFaucet.sol",
     "exportedSymbols": {
       "IFaucet": [
-        177
+        266
       ]
     },
-    "id": 178,
+    "id": 267,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 168,
+        "id": 257,
         "literals": [
           "solidity",
           ">=",
@@ -55,7 +55,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:32:1"
+        "src": "33:32:2"
       },
       {
         "abstract": false,
@@ -64,63 +64,63 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 177,
+        "id": 266,
         "linearizedBaseContracts": [
-          177
+          266
         ],
         "name": "IFaucet",
-        "nameLocation": "307:7:1",
+        "nameLocation": "307:7:2",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "a26759cb",
-            "id": 171,
+            "id": 260,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "addFunds",
-            "nameLocation": "329:8:1",
+            "nameLocation": "329:8:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 169,
+              "id": 258,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "337:2:1"
+              "src": "337:2:2"
             },
             "returnParameters": {
-              "id": 170,
+              "id": 259,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "356:0:1"
+              "src": "356:0:2"
             },
-            "scope": 177,
-            "src": "320:37:1",
+            "scope": 266,
+            "src": "320:37:2",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "2e1a7d4d",
-            "id": 176,
+            "id": 265,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "withdraw",
-            "nameLocation": "370:8:1",
+            "nameLocation": "370:8:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 174,
+              "id": 263,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 173,
+                  "id": 262,
                   "mutability": "mutable",
                   "name": "withdrawAmount",
-                  "nameLocation": "384:14:1",
+                  "nameLocation": "384:14:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 176,
-                  "src": "379:19:1",
+                  "scope": 265,
+                  "src": "379:19:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -128,10 +128,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 172,
+                    "id": 261,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "379:4:1",
+                    "src": "379:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -140,27 +140,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "378:21:1"
+              "src": "378:21:2"
             },
             "returnParameters": {
-              "id": 175,
+              "id": 264,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "408:0:1"
+              "src": "408:0:2"
             },
-            "scope": 177,
-            "src": "361:48:1",
+            "scope": 266,
+            "src": "361:48:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 178,
-        "src": "297:115:1",
+        "scope": 267,
+        "src": "297:115:2",
         "usedErrors": []
       }
     ],
-    "src": "33:379:1"
+    "src": "33:379:2"
   },
   "compiler": {
     "name": "solc",
@@ -168,7 +168,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-04-14T16:52:53.696Z",
+  "updatedAt": "2023-04-15T06:03:32.721Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
